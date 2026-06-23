@@ -14,9 +14,9 @@ const [[{ pendingTeams }]] = await db.query("SELECT COUNT(*) AS pendingTeams FRO
 
     // 4. Matches stats
     const [[{ totalMatches }]] = await db.query('SELECT COUNT(*) AS totalMatches FROM matches');
-    const [[{ liveMatches }]] = await db.query('SELECT COUNT(*) AS liveMatches FROM matches WHERE status = 'live'");
-    const [[{ completedMatches }]] = await db.query('SELECT COUNT(*) AS completedMatches FROM matches WHERE status = 'completed'");
-    const [[{ upcomingMatches }]] = await db.query('SELECT COUNT(*) AS upcomingMatches FROM matches WHERE status = 'upcoming'");
+    const [[{ liveMatches }]] = await db.query("SELECT COUNT(*) AS liveMatches FROM matches WHERE status = 'live'");
+const [[{ completedMatches }]] = await db.query("SELECT COUNT(*) AS completedMatches FROM matches WHERE status = 'completed'");
+const [[{ upcomingMatches }]] = await db.query("SELECT COUNT(*) AS upcomingMatches FROM matches WHERE status = 'upcoming'");
 
     res.json({
       success: true,
