@@ -6,8 +6,8 @@ exports.getStats = async (req, res) => {
     const [[{ totalTournaments }]] = await db.query('SELECT COUNT(*) AS totalTournaments FROM tournaments');
 
     // 2. Total Teams (Only count approved or all? Let's return total approved teams + pending teams separately or combined)
-    const [[{ totalTeams }]] = await db.query('SELECT COUNT(*) AS totalTeams FROM teams WHERE status = "approved"');
-    const [[{ pendingTeams }]] = await db.query('SELECT COUNT(*) AS pendingTeams FROM teams WHERE status = "pending"');
+    const [[{ totalTeams }]] = await db.query("SELECT COUNT(*) AS totalTeams FROM teams WHERE status = 'approved'");
+const [[{ pendingTeams }]] = await db.query("SELECT COUNT(*) AS pendingTeams FROM teams WHERE status = 'pending'");
 
     // 3. Total Players
     const [[{ totalPlayers }]] = await db.query('SELECT COUNT(*) AS totalPlayers FROM players');
