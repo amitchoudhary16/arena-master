@@ -195,6 +195,24 @@ This project helped in understanding:
 * Full-stack application development
 
 ---
+## Screenshots
+
+### Dashboard
+<img width="1465" height="886" alt="Screenshot 2026-06-23 at 8 13 59 PM" src="https://github.com/user-attachments/assets/a37b97a1-d26d-462d-9940-0ace03202a7a" />
+
+
+### Teams
+<img width="1470" height="879" alt="Screenshot 2026-06-23 at 8 14 32 PM" src="https://github.com/user-attachments/assets/94b766af-dac7-48de-942c-e3c21378cbe6" />
+
+
+### Tournaments
+<img width="1470" height="871" alt="Screenshot 2026-06-23 at 8 14 19 PM" src="https://github.com/user-attachments/assets/2bb49264-5741-49ed-94cd-d595f86bbb5e" />
+
+
+### Leaderboard
+<img width="1466" height="884" alt="Screenshot 2026-06-23 at 8 15 06 PM" src="https://github.com/user-attachments/assets/fa85dbb3-506f-4602-bf95-abbbf23dc3e6" />
+
+
 
 ## Author
 
